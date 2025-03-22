@@ -1,0 +1,86 @@
+/* Gaya dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigasi */
+nav {
+    background-color: #003366;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #002244;
+    border-radius: 5px;
+}
+
+/* Konten utama */
+main {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk bagian destinasi */
+.destinasi {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Gaya gambar dengan animasi */
+.destinasi img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;  /* Awalnya gambar transparan */
+    transform: translateY(30px); /* Geser ke bawah sedikit */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Saat class 'show' ditambahkan, gambar muncul dengan efek */
+.destinasi img.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Judul destinasi */
+h2 {
+    color: #004080;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+
+    .destinasi img {
+        width: 100%;  /* Agar gambar tetap pas di layar kecil */
+    }
+}
