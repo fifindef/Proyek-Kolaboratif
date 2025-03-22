@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e0f7ff; /* Biru muda */
     color: #333;
 }
 
 /* Header */
 header {
-    background-color: #004080;
+    background-color: #66c2ff; /* Biru muda */
     color: white;
     text-align: center;
     padding: 20px;
@@ -17,7 +17,7 @@ header {
 
 /* Navigasi */
 nav {
-    background-color: #003366;
+    background-color: #4da8ff; /* Biru muda lebih gelap */
     padding: 10px;
     text-align: center;
 }
@@ -31,7 +31,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #002244;
+    background-color: #3399ff; /* Biru muda lebih terang */
     border-radius: 5px;
 }
 
@@ -71,7 +71,7 @@ main {
 
 /* Judul destinasi */
 h2 {
-    color: #004080;
+    color: #3399ff; /* Biru muda */
 }
 
 /* Responsif untuk layar kecil */
