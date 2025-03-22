@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Travel Explorer</h1>
+        <p>Jelajahi destinasi terbaik di dunia!</p>
+    </header>
+
+    <!-- Navigasi hanya memiliki dua menu: Beranda dan Pelajari Lebih Lanjut -->
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#" onclick="tampilkanAlert()">Kontak</a>
+    </nav>
+
+    <main>
+        <section class="destinasi">
+            <h2>Pantai Bali</h2>
+            <img src="images/bali.jpg" alt="Pantai Bali">
+            <p>Pantai Bali menawarkan keindahan pasir putih dan ombak yang cocok untuk berselancar.</p>
+        </section>
+
+        <section class="destinasi">
+            <h2>Candi Borobudur</h2>
+            <img src="images/borobudur.jpg" alt="Candi Borobudur">
+            <p>Candi Borobudur adalah salah satu keajaiban dunia dengan arsitektur yang megah.</p>
+        </section>
+    </main>
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
